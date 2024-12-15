@@ -1,0 +1,304 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--=============== FLATICON ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="~/assets/css/styles.css" />
+    <style>
+      /* Hiệu ứng chuyển động màu chữ */
+      /* Hiệu ứng chuyển động gradient và chiếu sáng mạnh */
+      .intense-sparkle {
+       font-weight: bold;
+       font-size: 16px;
+       text-decoration: none;
+       background: linear-gradient(90deg, #f3e458, #f0ffa5, #ff93c7, #ff00aa, #ffa0d0);
+       background-size: 300% 300%;
+       color: transparent;
+       background-clip: text;
+       -webkit-background-clip: text; /* Hỗ trợ WebKit */
+       animation: intenseColor 1.5s linear infinite, sparkleEffect 0.5s ease-in-out infinite;
+       position: relative; /* Để thêm hiệu ứng ánh sáng */
+      }
+      
+      /* Tạo chuyển động gradient nhanh */
+      .keyframes intenseColor {
+       0% {
+         background-position: 0% 50%;
+       }
+       50% {
+         background-position: 100% 50%;
+       }
+       100% {
+         background-position: 0% 50%;
+       }
+      }
+   </style>
+  <!--================Chỉnh lại Style Heading=============-->
+  <style>
+    h1, h2, h3, h4, h5, h6, th {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  </style>
+   <link rel="icon" href="~/assets/img/1.png" type="image/x-icon">
+   <title>ChicCharm Official Store</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+     <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+            <!-- Hiển thị thông điệp liên hệ -->
+          <div class="header__contact">
+            <span id="contact1">Merry Chrismas</span> 
+          </div>
+            <!-- Hiển thị thông báo ưu đãi -->
+          <p class="header__alert-news" id="news" style="color: #ff97c9">ƯU ĐÃI SIÊU GIÁ TRỊ - TIẾT KIỆM THÊM VỚI NHIỀU MÃ GIẢM GIÁ</p>
+          <!-- Liên kết đăng nhập/đăng ký -->
+          <a href="login-register.html" id="login-link" class="header__top-action">Đăng nhập / Đăng ký</a>
+        </div>
+      </div>
+      
+    
+  <!-- Thanh điều hướng chính -->
+      <nav class="nav container">
+         <!-- Logo của trang web -->
+        <a href="index.html" class="nav__logo">
+          <img
+            class="nav__logo-img"
+            src="~/assets/img/1.png"
+            alt="website logo"
+          />
+        </a>
+        <!-- Menu điều hướng -->
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="~/assets/img/logo.svg" alt="">
+            </a>
+            <!-- Nút đóng menu -->
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+           <!-- Danh sách liên kết trong menu -->
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Trang Chủ</a>
+            </li>
+            <li class="nav__item dropdown">
+              <a href="shop.html" class="nav__link">Cửa Hàng</a>
+               <!-- Liên kết đến từng danh mục sản phẩm  với menu thả xuống -->
+              <ul class="dropdown__menu">
+                <li><a href="shop.html">Kẹp vuông</a></li>
+                <li><a href="shop.html">Kẹp nhỏ</a></li>
+                <li><a href="shop.html">Kẹp tròn</a></li>
+                <li><a href="shop.html">Gương</a></li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">Tài Khoản</a>  <!-- Liên kết đến trang tài khoản -->
+            </li>
+            <li class="nav__item">
+              <a href="index.html#featured" class="nav__link intense-sparkle">Khuyến mãi</a> <!-- Liên kết đến phần khuyến mãi -->
+            </li>
+          </ul>
+          
+          <!-- Tìm kiếm trong header -->
+          <div class="header__search">
+            <input
+              type="text"
+              placeholder=""
+              class="form__input"
+            />
+
+            <!-- Ô nhập để tìm kiếm -->
+            <button class="search__btn">
+              <img src="~/assets/img/search.png" alt="search icon" />
+            </button>
+          </div>
+        </div>
+        <div class="header__user-actions">
+          <!-- Nút đăng nhập -->
+          <a href="login.html" class="header__action-btn" title="Đăng nhập">
+            <img src="~/assets/img/user.png" alt="" />
+          </a>
+          <!-- Nút danh sách yêu thích -->
+          <a href="wishlist.html" class="header__action-btn" title="Wishlist">
+            <img src="~/assets/img/icon-heart.svg" alt="" />
+            <span class="count">3</span> <!-- Số lượng mục trong wishlist -->
+          </a>
+          <!-- Nút giỏ hàng -->
+          <a href="cart.html" class="header__action-btn" title="Giỏ hàng">
+            <img src="~/assets/img/icon-cart.svg" alt="" />
+            <span class="count">3</span> <!-- Số lượng sản phẩm trong giỏ hàng -->
+          </a>
+          <!-- Nút mở menu dọc -->
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <img src="~/assets//img/menu-burger.png" alt="">
+          </div>
+        </div>
+      </nav>
+    </header>
+  
+
+    <section class="login-register section--lg">
+    <div class="login-register__container container grid">
+    <div class="login">
+        <!-- Tiêu đề phần đăng nhập, căn giữa và tạo khoảng cách bên phải -->
+        <h3 class="section__title" style="text-align: center; margin-right: 100px">
+            Admin đăng nhập
+        </h3>
+               
+                <form asp-action="Login" method="post" class="form grid">
+
+
+                    <input placeholder="Email / Tên tài khoản" name="username" asp-for="username" class="form-input" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+
+
+                    <input placeholder="Mật khẩu" name="password" asp-for="Matkhau" type="password" class="form-input" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+                    <div class="message-error">
+                        <p class="message-error"> @TempData["Message"]</p> 
+                         </div>
+            <div class="form__btn">
+                <!-- Nút bấm thực hiện hành động submit biểu mẫu -->
+                <button type="submit" class="btn">Đăng nhập</button>
+            </div>
+    </form>
+</div>
+</div>
+</section>
+<script src="~/js/site.js"></script>
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter section">
+        <div class="newsletter__container container grid">
+            <h3 class="newsletter__title flex">
+                <img src="~/assets/img/icon-email.svg"
+                     alt=""
+                     class="newsletter__icon" />
+                Sign in to Newsletter
+            </h3>
+            <p class="newsletter__description">
+                ...and receive $25 coupon for first shopping.
+            </p>
+            <form action="" class="newsletter__form">
+                <input type="text"
+                       placeholder="Enter Your Email"
+                       class="newsletter__input" />
+                <button type="submit" class="newsletter__btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <div class="footer__container grid">
+            <div class="footer__content">
+                <a href="index.html" class="footer__logo">
+                    <img src="~/assets/img/logo.svg" alt="" class="footer__logo-img" />
+                </a>
+                <h4 class="footer__subtitle">Contact</h4>
+                <p class="footer__description">
+                    <span>Address:</span> 13 Tlemcen Road, Street 32, Beb-Wahren
+                </p>
+                <p class="footer__description">
+                    <span>Phone:</span> +01 2222 365 /(+91) 01 2345 6789
+                </p>
+                <p class="footer__description">
+                    <span>Hours:</span> 10:00 - 18:00, Mon - Sat
+                </p>
+                <div class="footer__social">
+                    <h4 class="footer__subtitle">Follow Me</h4>
+                    <div class="footer__links flex">
+                        <a href="#">
+                            <img src="~/assets/img/icon-facebook.svg"
+                                 alt=""
+                                 class="footer__social-icon" />
+                        </a>
+                        <a href="#">
+                            <img src="~/assets/img/icon-twitter.svg"
+                                 alt=""
+                                 class="footer__social-icon" />
+                        </a>
+                        <a href="#">
+                            <img src="~/assets/img/icon-instagram.svg"
+                                 alt=""
+                                 class="footer__social-icon" />
+                        </a>
+                        <a href="#">
+                            <img src="~/assets/img/icon-pinterest.svg"
+                                 alt=""
+                                 class="footer__social-icon" />
+                        </a>
+                        <a href="#">
+                            <img src="~/assets/img/icon-youtube.svg"
+                                 alt=""
+                                 class="footer__social-icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Address</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">About Us</a></li>
+                    <li><a href="#" class="footer__link">Delivery Information</a></li>
+                    <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+                    <li><a href="#" class="footer__link">Contact Us</a></li>
+                    <li><a href="#" class="footer__link">Support Center</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">My Account</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Sign In</a></li>
+                    <li><a href="#" class="footer__link">View Cart</a></li>
+                    <li><a href="#" class="footer__link">My Wishlist</a></li>
+                    <li><a href="#" class="footer__link">Track My Order</a></li>
+                    <li><a href="#" class="footer__link">Help</a></li>
+                    <li><a href="#" class="footer__link">Order</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Secured Payed Gateways</h3>
+                <img src="~/assets/img/payment-method.png"
+                     alt=""
+                     class="payment__img" />
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="copyright">&copy; 2024 Evara. All right reserved</p>
+            <span class="designer">Designer by Crypticalcoder</span>
+        </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="~/assets/js/main.js"></script>
+
+  
+</body>
+</html>

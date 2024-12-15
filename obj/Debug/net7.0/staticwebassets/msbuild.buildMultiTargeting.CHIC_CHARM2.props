@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CHIC_CHARM2.props" />
+</Project>

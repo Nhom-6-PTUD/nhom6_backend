@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CHIC_CHARM2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CHIC_CHARM2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\css\\styles-admin.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\styles-admin.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\20thang10.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\20thang10.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\alcoholicity.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\alcoholicity.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\anh1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\anh1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\banner.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\bellini.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\bellini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\bellini.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\bellini.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\bellini_square.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\bellini_square.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\bellinixmas.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\bellinixmas.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\blackfriday.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\blackfriday.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\boy3.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\boy3.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\cogai2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\cogai2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\countdown.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\countdown.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\guong.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\guong.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\icon-cart.svg",
+      "PackagePath": "staticwebassets\\Assets\\img\\icon-cart.svg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\Assets\\img\\icon-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\icon-heart.svg",
+      "PackagePath": "staticwebassets\\Assets\\img\\icon-heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\icon-instagram.svg",
+      "PackagePath": "staticwebassets\\Assets\\img\\icon-instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\kepnho.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\kepnho.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\keptron.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\keptron.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\kepvuong.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\kepvuong.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\kol.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\kol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\kol.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\kol.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\kol_big.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\kol_big.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\martini2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\martini2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\menu-burger.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\menu-burger.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\payment-method.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\payment-method.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\phg.png.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\phg.png.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\pinklady2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\pinklady2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product1.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product1.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product10.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product10.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product11.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product11.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product12.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product12.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product13.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product13.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product14.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product14.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product15.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product15.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product16.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product16.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product16.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product16.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product17.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product17.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product17.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product17.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product18.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product18.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product18.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product18.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product19.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product19.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product19.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product19.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product2.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product2.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product20.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product20.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product20.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product20.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product20.3.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product20.3.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product21.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product21.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product21.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product21.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product3.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product3.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product3.2.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product3.2.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product4.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product4.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product5.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product5.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product6.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product6.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product7.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product7.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product8.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product8.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\product9.1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\product9.1.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\search.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\shirleytemple.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\shirleytemple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\shirleytemple_small.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\shirleytemple_small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\shirleytemple_square.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\shirleytemple_square.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\urbanxmas.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\urbanxmas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\urbanxmas_square.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\urbanxmas_square.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\user.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\xmas_combo.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\xmas_combo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\xmas_combo_small.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\xmas_combo_small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\img\\xmasdeal.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\xmasdeal.png"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\jquery-1.8.3.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery-1.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\jquery.elevateZoom-3.0.8.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.elevateZoom-3.0.8.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.elevatezoom.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\misc.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\misc.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\todo.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\todo.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\todolist.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors.js",
+      "PackagePath": "staticwebassets\\Assets\\vendors.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MYPC\\Downloads\\nhom6_updated\\CHIC_CHARM2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CHIC_CHARM2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CHIC_CHARM2.props",
+      "PackagePath": "build\\CHIC_CHARM2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CHIC_CHARM2.props",
+      "PackagePath": "buildMultiTargeting\\CHIC_CHARM2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CHIC_CHARM2.props",
+      "PackagePath": "buildTransitive\\CHIC_CHARM2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<CHIC_CHARM2.Models.Sanpham>
+
+@{
+    ViewData["Title"] = "Quanlysanpham";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="content-wrapper">
+
+    <div class="page-header d-flex justify-content-between align-items-center">
+        <!-- Tiêu đề -->
+        <h1 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white me-2">
+                <i class="mdi mdi-cart-outline"></i>
+            </span>
+            Quản lý sản phẩm
+        </h1>
+
+    </div>
+
+    <!-- Nút Thêm sản phẩm -->
+    <div class="action-container">
+        <a class="btn btn-succes btn-add-product" asp-action="Themsanpham">Thêm sản phẩm</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr class="table th">
+                <th>
+                    Tên sản phẩm
+                </th>
+                <th>
+                    Đơn giá
+                </th>
+                <th>
+                    Mô tả ngắn
+                </th>
+                <th>
+                    Tình trạng
+                </th>
+                <th>
+                    Ảnh sản phẩm
+                </th>
+                <th>
+                    Mã danh mục
+                </th>
+                <th>
+                    Hành động
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="text-align: center">
+                        @Html.DisplayFor(modelItem => item.Tensp)
+                    </td>
+                    <td style="text-align: center">
+                        @Html.DisplayFor(modelItem => item.Dongia)
+                    </td>
+                    <td style="text-align: center">
+                        @Html.DisplayFor(modelItem => item.Mota)
+                    </td>
+                    <td style="text-align: center">
+
+                        @Html.DisplayFor(modelItem => item.Tinhtrang)
+                    </td>
+                    <td style="text-align: center">
+                        <img src="~/Assets/img/@item.Hinhchinh" alt="">
+                    </td>
+                    <td style="text-align: center">
+                        @Html.DisplayFor(modelItem => item.Madm)
+                    </td>
+                    <td style="text-align: center">
+                        <a class="btn btn-sm btn-edit" asp-action="Suasanpham" asp-route-masp="@item.Masp">Sửa</a>
+                       
+                        <form asp-action="Xoasanpham" asp-route-masp="@item.Masp" method="post">
+                            <button type="submit" class="btn btn-sm btn-delete">Xóa</button>
+                        </form>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

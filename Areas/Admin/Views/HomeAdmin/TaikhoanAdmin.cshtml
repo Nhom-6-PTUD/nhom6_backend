@@ -1,0 +1,56 @@
+﻿@model CHIC_CHARM2.Models.Nhanvien
+
+@{
+    ViewData["Title"] = "TaikhoanAdmin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="current-info h3">
+        <h3>Thông tin hiện tại</h3>
+        <table class ="profile-table">
+            <tr>
+                <td>Họ và tên</td>
+                <td>Lê Thảo Linh</td>
+                <td style="text-align: center">
+                    <a class="btn btn-sm btn-edit" asp-action="Edit">Sửa</a>
+                    <a class="btn btn-sm btn-delete" asp-action="Delete"> Xóa  </a>
+                </td>
+            </tr>
+            <tr>
+                <td>SĐT</td>
+                <td>0123456789</td>
+                <td style="text-align: center">
+                    <a class="btn btn-sm btn-edit" asp-action="Edit">Sửa</a>
+                    <a class="btn btn-sm btn-delete" asp-action="Delete"> Xóa  </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>lethaolinh@gmail.com</td>
+                <td style="text-align: center">
+                    <a class="btn btn-sm btn-edit" asp-action="Edit">Sửa</a>
+                    <a class="btn btn-sm btn-delete" asp-action="Delete"> Xóa  </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td>03/08/1993</td>
+                <td style="text-align: center">
+                    <a class="btn btn-sm btn-edit" asp-action="Edit">Sửa</a>
+                    <a class="btn btn-sm btn-delete" asp-action="Delete"> Xóa  </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Quê quán</td>
+                <td>Cần Thơ</td>
+                <td style="text-align: center">
+                    <a class="btn btn-sm btn-edit" asp-action="Edit">Sửa</a>
+                    <a class="btn btn-sm btn-delete" asp-action="Delete"> Xóa  </a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+      

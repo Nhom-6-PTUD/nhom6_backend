@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--=============== FLATICON ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="~/Assets/css/styles.css" />
+  
+<body>
+  
+</body>
+    <style>
+      /* Hiệu ứng fade-in khi tải trang */
+<div class="animate-slideIn">Nội dung chuyển động</div>
+
+
+/* Áp dụng animation cho toàn bộ body hoặc phần tử chính */
+body {
+  animation: fadeIn 1s ease-out forwards;
+  opacity: 0; /* Trang sẽ ban đầu bị ẩn */
+}
+
+      /* Hiệu ứng chuyển động màu chữ */
+/* Hiệu ứng chuyển động gradient và chiếu sáng mạnh */
+.intense-sparkle {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #f3e458, #f0ffa5, #ff93c7, #ff00aa, #ffa0d0);
+  background-size: 300% 300%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; /* Hỗ trợ WebKit */
+  animation: intenseColor 1.5s linear infinite, sparkleEffect 0.5s ease-in-out infinite;
+  position: relative; /* Để thêm hiệu ứng ánh sáng */
+}
+
+/* Tạo chuyển động gradient nhanh */
+        <div class="intenseColor n" > Nội dung chuyển động</div >
+    </style>
+
+    <link rel="icon" href="~/Assets/img/1.png" type="image/x-icon">
+    <title>ChicCharm Official Store</title>
+  </head>
+  <body>
+      @RenderBody()
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span id="contact1">Merry Chrismas</span> 
+          </div>
+          <p class="header__alert-news" id="news" style="color: #ff59a9">ƯU ĐÃI SIÊU GIÁ TRỊ - TIẾT KIỆM THÊM VỚI NHIỀU MÃ GIẢM GIÁ</p>
+          <a href="login-register.html" id="login-link" class="header__top-action">Đăng nhập / Đăng ký</a>
+        </div>
+      </div>
+      
+    
+  
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img
+            class="nav__logo-img"
+            src="~/Assets/img/1.png"
+            alt="website logo"
+          />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="./~/Assets/img/logo.svg" alt="">
+            </a>
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Trang Chủ</a>
+            </li>
+            <li class="nav__item dropdown">
+              <a href="shop.html" class="nav__link">Cửa Hàng</a>
+              <ul class="dropdown__menu">
+                <li><a href="shop.html">Kẹp vuông</a></li>
+                <li><a href="shop.html">Kẹp nhỏ</a></li>
+                <li><a href="shop.html">Kẹp tròn</a></li>
+                <li><a href="shop.html">Gương</a></li>
+              </ul>
+            </li>            
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">Tài Khoản</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#featured" class="nav__link intense-sparkle">Khuyến mãi</a>
+            </li>
+          </ul>
+          
+          <div class="header__search">
+            <input
+              type="text"
+              placeholder=""
+              class="form__input"
+            />
+            <button class="search__btn">
+              <img src="~/Assets/img/search.png" alt="search icon" />
+            </button>
+          </div>
+        </div>
+        <div class="header__user-actions">
+          <a href="login.html" class="header__action-btn" title="Đăng nhập">
+            <img src="~/Assets/img/user.png" alt="" />
+          </a>
+          <a href="wishlist.html" class="header__action-btn" title="Wishlist">
+            <img src="~/Assets/img/icon-heart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+          <a href="cart.html" class="header__action-btn" title="Giỏ hàng">
+            <img src="~/Assets/img/icon-cart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <img src="./~/Assets//img/menu-burger.png" alt="">
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+   
+  
+     <!--=============== MAIN ===============-->
+@RenderBody()
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="./~/Assets/img/logo.svg" alt="" class="footer__logo-img" />
+          </a>
+          <h4 class="footer__subtitle">Liên hệ</h4>
+          <p class="footer__description">
+            <span>Địa chỉ:</span> 279 Nguyễn Tri Phương, Phường 5, Quận 10
+          </p>
+          <p class="footer__description">
+            <span>SĐT:</span> +01 2222 365 /(+91) 01 2345 6789
+          </p>
+          <p class="footer__description">
+            <span>Thời gian:</span> 10:00 - 18:00, T2-T7
+          </p>
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Theo dõi chúng tôi</h4>
+            <div class="footer__links flex">
+              <a href="https://www.facebook.com/share/1784WE225P/?mibextid=LQQJ4d">
+                <img
+                  src="./~/Assets/img/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+              </a>
+              <a href="https://www.instagram.com/chiccharm.official_?igsh=MXJpM3pqZDFvMmlzaw==">
+                <img
+                  src="./~/Assets/img/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Địa chỉ</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Về Chúng Tôi</a></li>
+            <li><a href="#" class="footer__link">Chính Sách Vận Chuyển</a></li>
+            <li><a href="#" class="footer__link">Chính Sách Riêng Tư</a></li>
+            <li><a href="#" class="footer__link">Điều Khoản & Điều Kiện</a></li>
+            <li><a href="#" class="footer__link">Liên Hệ</a></li>
+            <li><a href="#" class="footer__link">Trung Tâm Hỗ Trợ</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Tài Khoản</h3>
+          <ul class="footer__links">
+            <li><a href="login.html" class="footer__link">Đăng Nhập</a></li>
+            <li><a href="cart.html" class="footer__link">Giỏ Hàng</a></li>
+            <li><a href="wishlist.html" class="footer__link">Wishlist</a></li>
+            <li><a href="#" class="footer__link">Đơn Hàng</a></li>
+            <li><a href="#" class="footer__link">Giúp Đỡ</a></li>
+            <li><a href="#" class="footer__link">Đặt Hàng</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Phương Thức Thanh Toán</h3>
+          <img
+            src="./~/Assets/img/payment-method.png"
+            alt=""
+            class="payment__img"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="~/Assets/js/main.js"></script>
+
+    <script>
+      //=========LẮNG NGHE SỰ KIỆN CUỘN TRANG=====//
+window.onscroll = function() {
+  // Lấy thanh menu
+  var nav = document.querySelector('.nav');
+
+  // Kiểm tra vị trí cuộn của trang
+  if (window.scrollY > 1200) { // Khi cuộn xuống 100px
+    nav.classList.add('fixed-menu'); // Thêm lớp cố định cho nav
+  } else {
+    nav.classList.remove('fixed-menu'); // Bỏ lớp cố định khi lên đầu trang
+  }
+};
+
+    </script>
+
+    <!--Banner thay đổi thông tin liên tục-->
+    <script>
+      let news = document.getElementById('news');
+  
+      // Mảng các tin tức
+      const newsArray = [
+        "CHỈ CÒN 2 NGÀY DUY NHẤT - NHANH TAY CHỐT ĐƠN",
+        "MIỄN PHÍ VẬN CHUYỂN NỘI THÀNH TP.HCM"
+      ];
+  
+      // Hàm thay đổi tin tức
+      let newsIndex = 0;
+      function changeNews() {
+        // Ẩn tin tức hiện tại với hiệu ứng mờ
+        news.classList.add('hidden');
+  
+        setTimeout(() => {
+          // Thay đổi tin tức sau khi mờ đi
+          news.textContent = newsArray[newsIndex];
+          newsIndex = (newsIndex + 1) % newsArray.length;
+  
+          // Hiện lại tin tức mới với hiệu ứng mờ
+          news.classList.remove('hidden');
+        }, 1000); // Chờ 1 giây (thời gian mờ đi) trước khi thay đổi tin tức
+      }
+  
+      // Khởi động interval để thay đổi tin tức
+      setInterval(() => {
+        changeNews(); // Thay đổi tin tức
+      }, 3000); // Thay đổi mỗi 2 giây
+    </script>
+
+<script>
+//=========TẠO ALERT KHI NHẤN VÀO NÚT THÊM VÀO WISHLIST=====//
+// Đảm bảo mã được chạy sau khi DOM đã tải xong
+document.addEventListener('DOMContentLoaded', function() {
+  // Lấy tất cả các nút "Thêm vào Wishlist"
+  const addToWishlistBtns = document.querySelectorAll('.action__btn[aria-label="Thêm vào Wishlist"]');
+  
+    addToWishlistBtns.forEach(function(button) {
+      button.addEventListener('click', function(e) {
+        e.preventDefault(); // Ngừng hành động mặc định của liên kết
+
+        // Hiển thị thông báo thành công
+        alert('Đã thêm vào Wishlist thành công!');
+      });
+    });
+  }); 
+</script>
+
+
+<script>
+//=========TẠO ALERT KHI NHẤN VÀO NÚT THÊM VÀO GIỎ HÀNG=====//
+// Chọn tất cả các nút "Thêm vào Giỏ hàng"
+const addToCartBtns = document.querySelectorAll('.action__btn[aria-label="Thêm vào Giỏ hàng"]');
+
+// Duyệt qua tất cả các nút và thêm sự kiện click
+addToCartBtns.forEach(function(btn) {
+  btn.addEventListener("click", function(event) {
+    event.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
+
+    // Lấy số lượng review từ thuộc tính data-reviews
+    const reviews = btn.getAttribute("data-reviews") || 0;
+
+    // Lấy số lượng tồn kho từ thuộc tính data-inventory
+    const inventory = btn.getAttribute("data-inventory") || 0;
+
+    // Hiển thị thông báo alert
+    alert(`Đã thêm vào giỏ hàng thành công! 
+Sản phẩm này còn ${inventory} sản phẩm trong kho.`);
+  });
+});
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,153 @@
+﻿
+@{
+    ViewData["Title"] = "Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-wrapper">
+    <div class="page-header">
+        <h3 class="page-title">
+            <span class="page-title-icon bg-gradient-primary text-white me-2">
+                <i class="mdi mdi-home"></i>
+            </span>
+            Tổng quan
+        </h3>
+
+    </div>
+    <!-- Hàng đầu tiên: Các thẻ thống kê quản lý -->
+    <div class="row">
+        <!-- Thẻ: Bán trong tuần -->
+        <div class="col-md-4 stretch-card grid-margin">
+            <div class="card bg-gradient-danger card-img-holder text-white">
+                <div class="card-body">
+                    <h4 class="font-weight-normal mb-3">Bán trong tuần</h4>
+                    <h2 class="mb-5 card-price">150,000,000 VNĐ</h2>
+                    <h6 class="card-text">Tăng 60%</h6>
+                </div>
+            </div>
+        </div>
+        <!-- Thẻ: Đơn đặt hàng trong tuần -->
+        <div class="col-md-4 stretch-card grid-margin">
+            <div class="card bg-gradient-info card-img-holder text-white">
+                <div class="card-body">
+                    <h4 class="font-weight-normal mb-3">
+                        Đơn đặt hàng trong tuần
+                    </h4>
+                    <h2 class="mb-5 card-price">45,63</h2>
+                    <h6 class="card-text">Giảm 10%</h6>
+                </div>
+            </div>
+        </div>
+        <!-- Thẻ: Khách truy cập trực tuyến -->
+        <div class="col-md-4 stretch-card grid-margin">
+            <div class="card bg-gradient-success card-img-holder text-white">
+                <div class="card-body">
+                    <h4 class="font-weight-normal mb-3">
+                        Khách truy cập trực tuyến
+                    </h4>
+                    <h2 class="mb-5 card-price">95,4</h2>
+                    <h6 class="card-text">Tăng 5%</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hàng thứ hai: Biểu đồ và dữ liệu -->
+    <div class="row">
+        <!-- Biểu đồ Sản phẩm bán chạy -->
+        <div class="col-md-7 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <div class="clearfix">
+                        <h4 class="card-title float-left">Sản phẩm bán chạy</h4>
+                        <div id="visit-sale-chart-legend"
+                             class="rounded-legend legend-horizontal legend-top-right float-right"></div>
+                    </div>
+                    <canvas id="visit-sale-chart" class="mt-4"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- Biểu đồ Dữ liệu bán hàng -->
+        <div class="col-md-5 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Dữ liệu bán hàng</h4>
+                    <canvas id="traffic-chart"></canvas>
+                    <div id="traffic-chart-legend"
+                         class="rounded-legend legend-vertical legend-bottom-left pt-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hàng thứ ba: Bảng theo dõi đơn hàng -->
+    <div class="row">
+        <div class="col-12 grid-margin">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Theo dõi đơn hàng</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="table-header">
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Khách hàng</th>
+                                    <th>Mã đơn hàng</th>
+                                    <th>Trạng thái</th>
+                                    <th>Ngày tạo đơn</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-content td">
+                                <tr style="text-align: center">
+                                    <td>1</td>
+                                    <td>cobexinhxan</td>
+                                    <td>DH01</td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">Đã giao hàng</label>
+                                    </td>
+                                    <td>12/11/2024</td>
+                                </tr>
+
+                                <tr style="text-align: center">
+                                    <td>2</td>
+                                    <td>hoangtumuadong</td>
+                                    <td>DH05</td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">Đang giao hàng</label>
+                                    </td>
+                                    <td>29/11/2024</td>
+                                </tr>
+                                <tr style="text-align: center">
+                                    <td>3</td>
+                                    <td>hoangtumuadong</td>
+                                    <td>DH09</td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">Đang giao hàng</label>
+                                    </td>
+                                    <td>30/11/2024</td>
+                                </tr>
+                                <tr style="text-align: center">
+                                    <td>4</td>
+                                    <td>linhchi1122</td>
+                                    <td>DH10</td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">Đang giao hàng</label>
+                                    </td>
+                                    <td>30/11/2024</td>
+                                </tr>
+
+                                <tr style="text-align: center">
+                                    <td>5</td>
+                                    <td>anhtrang_muaha</td>
+                                    <td>DH12</td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">Đang đóng gói</label>
+                                    </td>
+                                    <td>02/12/2024</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
