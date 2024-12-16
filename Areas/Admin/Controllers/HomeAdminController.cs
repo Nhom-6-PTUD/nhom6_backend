@@ -73,7 +73,7 @@ namespace CHIC_CHARM2.Areas.Admin.Controllers
                 if (ModelState.IsValid) // *Kiểm tra nếu dữ liệu từ form hợp lệ.
                     {
                  
-                        db.Entry(Sanpham).State = Microsoft.EntityFrameworkCore.EntityState.Modified; / *Đánh dấu đối tượng sản phẩm là đã sửa đổi trong Entity Framework.
+                        db.Entry(Sanpham).State = Microsoft.EntityFrameworkCore.EntityState.Modified; //*Đánh dấu đối tượng sản phẩm là đã sửa đổi trong Entity Framework.
                         db.SaveChanges(); // *Lưu các thay đổi vào cơ sở dữ liệu.
                         return RedirectToAction("Quanlysanpham", "HomeAdmin"); // *Chuyển hướng người dùng về trang quản lý sản phẩm sau khi sửa thành công.
                     }
